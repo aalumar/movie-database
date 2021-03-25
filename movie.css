@@ -1,0 +1,119 @@
+h1 {
+	text-align: left;
+	font-size: 23px;
+	color: white; 
+}
+
+h2 {
+	margin-top: 13px;
+	text-align: center;
+}
+
+body {
+	color: black;
+	background-color: #27BEFE;
+}
+
+#container {
+	background-color: lightblue;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 40px;
+	border-style: double;
+	border-width: 7px;
+	border-color: blue;
+	overflow: hidden;
+	border-radius: 15px;
+	font-size: 20px;
+}
+
+#toparea {
+	background-color: #659af0;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	background: lightgrey;
+	border: solid;
+	border-width: 2px;
+	border-radius: 6px;
+	padding: 10px 10px;
+	margin-left: 5px;
+}
+
+footer {
+	text-align: center;
+}
+	
+table, th, td {
+	border: 1px solid black;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+	list-style-type: upper-alpha;
+}
+
+li a {
+	text-align: center;
+	text-decoration: none;
+	padding: 3px;
+}
+
+a {
+	color: blue;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: white;
+}
+
+#endtext {
+	text-align: center;
+}
+
+.redText
+	{color: red;
+}
+
+img {float:right;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+	padding-right: 10px;
+	display: block;
+	padding-left: 6px;
+}
+
+@media (max-width: 750px) {
+	h1 {font-size: 25px;}
+	h2 {font-size: 21px;}
+	h3 {font-size: 18px;}
+	img {width: 50%;}
+	.mytable {font-size: 13px;}
+}
+
+@media (max-width: 520px) {
+	h1 {font-size: 20px;}
+	img {width: 40%;}
+}
+
+@media (max-width: 560px)
+	{
+	nav li {display: block;
+			margin-top: 5px;}
+}
