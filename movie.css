@@ -8,8 +8,14 @@ h1 {
 h1 {display:inline-block;margin-right:10px;} 
 h3 {display:inline-block;} 
 h4 {display:inline-block;} 
+h5 {display:inline-block;} 
 
 .topnav {display:inline-block;}
+
+.topnav input {display:inline-block;
+	vertical-align: middle;}
+.topnav form {display:inline-block;
+	vertical-align: middle;}
 
 .select {padding-top: 100px;}
 
@@ -24,6 +30,10 @@ h3 {
 }
 
 h4 {
+	font-size: 30px;
+}
+
+h5 {
 	font-size: 30px;
 }
 
@@ -173,25 +183,6 @@ img {float:top;
 	padding-left: 0px;
 }
 
-@media (max-width: 750px) {
-	h1 {font-size: 25px;}
-	h2 {font-size: 21px;}
-	h3 {font-size: 18px;}
-	img {width: 50%;}
-	.mytable {font-size: 13px;}
-}
-
-@media (max-width: 520px) {
-	h1 {font-size: 20px;}
-	img {width: 40%;}
-}
-
-@media (max-width: 560px)
-	{
-	nav li {display: block;
-			margin-top: 5px;}
-}
-
 #freespace {
 	padding-right: 50px;
 }
@@ -257,4 +248,81 @@ img {float:top;
 .vertical-menu-type-2 a.active {
   background-color: ; /* Add a green color to the "active/current" link */
   color: red;
+}
+
+/* For Mobile Devices and Tablets */
+@media screen and (max-width: 768px) { 
+	#welcome {width: 42%;}
+	#middlearea {width: 50%;
+				font-size: 18px}
+	#leftside {width: 25%;}
+	.vertical-menu-type-2 {width: 150px }
+	h1 {font-size: 40px;
+	padding-right: 10px;}
+	h2 {font-size: 28px;}
+	h3 {font-size: 28px;}
+	h4 {font-size: 30px;}
+	h5 {font-size: 24px;}
+	li a {font-size: 18px;
+	margin-left: 10px;}
+}
+
+/*For standard laptops*/
+@media screen and (min-width: 769px) and (max-width: 1064px) { 
+	#welcome {width: 44%;}
+	#middlearea {width: 50%;
+				font-size: 18px}
+	#leftside {width: 25%;}
+	.vertical-menu-type-2 {width: 150px }
+	h1 {font-size: 40px;
+	padding-right: 10px;}
+	h2 {font-size: 28px;}
+	h3 {font-size: 28px;}
+	h4 {font-size: 30px;}
+	h5 {font-size: 20px;}
+	ul li a {font-size: 18px;
+	margin-left: 10px;}
+}
+
+/*For larger laptops (up to 1441px)*/
+@media screen and (min-width: 1065px) { 
+	#welcome {width: 50%}
+	#leftside {width: 20%;}
+	#middlearea {width: 45%}
+	h5 {font-size: 22px;}
+	.vertical-menu-type-2 {width: 200px }
+	.vertical-menu-type-1 {width: 225px }
+}
+
+@media screen and (min-width: 1175px) { 
+	#welcome {width: 52%}
+	#leftside {width: 20%;}
+	#middlearea {width: 45%}
+	h2 {font-size: 28px;}
+	h3 {font-size: 28px;}
+	h4 {font-size: 28px;}
+	h5 {font-size: 22px;
+	padding-left: 20px;}
+	.vertical-menu-type-2 {width: 200px }
+	.vertical-menu-type-1 {width: 225px }
+}
+
+/*1441 - 4K - Large screens (TVs,large monitors) */
+@media screen and (min-width: 1355px) { 
+	#welcome {width: 55%}
+}
+
+@media screen and (min-width: 1375px) and (max-width: 1495px) { 
+	#welcome {width: 55%}
+	h5 {font-size: 15px;
+	padding-left: 0px;}
+}
+
+@media screen and (min-width: 1655px) { 
+	#welcome {width: 60%}
+}
+
+@media screen and (min-width: 2155px) { 
+	#leftside {width: 15%}
+	#welcome {width: 72%}
 }
