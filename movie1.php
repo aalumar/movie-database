@@ -28,7 +28,7 @@
 		
 					<header>
 					
-						<h1>TRAMZ</h1> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+						<h1>TRAMZ</h1> 
 						<h4>Movie Database</h4> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 					
 						<div class="topnav">
@@ -51,8 +51,8 @@
 							
 						</div>
 						
-						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <h4>Hi, username &nbsp; |</h4>&nbsp; &nbsp; 
-						<h4><a href="">Log out</a></h4>
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <h5>Hi, username &nbsp; |</h5>&nbsp; &nbsp; 
+						<h5><a href="">Log out</a></h5>
 					
 					</header>
 				
@@ -205,7 +205,7 @@
 							<!--<img src="images/poster1.png" alt="Poster1">
 							<img src="images/poster2.png" alt="Poster2">-->
 							
-					
+							<br>
 							<h3><?php echo $row ["Title"]; ?></h3> &#9733;&#9733;&#9733;&#9733;&#9734;
 							
 							<div class="vertical-menu-type-2">
