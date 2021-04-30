@@ -25,23 +25,23 @@ body {
     padding-top: var(--nav-height);
 }
 
-a {
-    text-decoration: none;
-    color: unset;
-}
-
 img {
     max-width: 100%;
 }
 
-.main-color {
-    color: var(--main-color);
+a {
+    text-decoration: none;
+    color: unset;
 }
 
 .container {
     max-width: 1920px;
     padding: 0 40px;
     margin: auto;
+}
+
+.main-color {
+    color: var(--main-color);
 }
 
 .overlay {
@@ -70,15 +70,14 @@ img {
     height: var(--nav-height);
 }
 
-.nav a {
-    color: var(--text-color);
-}
-
 .logo {
     font-size: 2rem;
     font-weight: 900;
 }
 
+.nav a {
+    color: var(--text-color);
+}
 .nav-menu {
     list-style-type: none;
     display: flex;
@@ -197,20 +196,20 @@ a.movie-item:hover {
     left: 6px;
 }
 
-.hero-slide-item {
+.main-movie-slide {
     padding-top: 40%;
     position: relative;
     overflow: hidden;
 }
 
-.hero-slide-item img {
+.main-movie-slide img {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.hero-slide-item-content {
+.main-movie-slide-content {
     position: absolute;
     top: 0;
     left: 0;
@@ -246,7 +245,7 @@ a.movie-item:hover {
     font-weight: 900;
 }
 
-.movie-infos {
+.movie-rating-runtime {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -272,7 +271,7 @@ a.movie-item:hover {
     margin-left: 5px;
 }
 
-.item-content-description {
+.movie-details {
     font-size: 1.15rem;
     margin-top: var(--space-top);
     line-height: 1.5rem;
@@ -399,14 +398,14 @@ a.movie-item:hover {
     padding-top: 80px;
 }
 
-/* RESPONSIVE */
+/* Media queries for different screen sizes */
 
 @media only screen and (max-width: 1280px) {
     html {
         font-size: 14px;
     }
 
-    .hero-slide-item {
+    .main-movie-slide {
         padding-top: 50%;
     }
 
@@ -424,7 +423,7 @@ a.movie-item:hover {
         padding: 0 15px;
     }
 
-    .hero-slide-item {
+    .main-movie-slide {
         height: max-content;
         padding-top: unset;
     }
@@ -437,11 +436,11 @@ a.movie-item:hover {
         background-color: rgba(0, 0, 0, 0.2);
     }
 
-    .hero-slide-item-content {
+    .main-movie-slide-content {
         position: relative;
     }
 
-    .hero-slide-item img {
+    .main-movie-slide img {
         height: 100%;
     }
 
